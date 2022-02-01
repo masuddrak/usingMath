@@ -1,14 +1,13 @@
 // add a three number find the lowest number
 function findLargest(frist,second,third){
    if(frist<second && frist<third){
-       return frist;
+       console.log('frist number is lowest');
    }
    else if(second<frist && second<third){
-       return second;
+    console.log('second number is lowest');
    }
    else{
-       return third;
+    console.log('third number is lowest');
    }
 }
-var result=findLargest(3,2,1);
-console.log("thats is lowes number",result);
+var result=findLargest(3,2,11);
