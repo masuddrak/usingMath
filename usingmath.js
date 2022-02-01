@@ -1,13 +1,6 @@
 // add a three number find the lowest number
-function findLargest(frist,second,third){
-   if(frist<second && frist<third){
-       console.log('frist number is lowest');
-   }
-   else if(second<frist && second<third){
-    console.log('second number is lowest');
-   }
-   else{
-    console.log('third number is lowest');
-   }
-}
-var result=findLargest(3,2,11);
+const num1=10;
+const num2=11;
+const num3=11;
+var result=Math.max(num1,num2,num3);
+console.log(result);
