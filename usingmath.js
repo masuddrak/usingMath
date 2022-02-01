@@ -1,6 +1,7 @@
-const myNumber=5.778;
-for(let i=0; i<=100; i++){
-    let result=Math.random()*10;
-let rounded=Math.round(result);
-console.log(rounded);
-}
+var frist=4;
+var second=11;
+console.log(frist,second);
+var temp=frist;
+frist=second;
+second=temp;
+console.log(frist,second);
