@@ -1,6 +1,7 @@
-// add a three number find the lowest number
-const num1=10;
-const num2=11;
-const num3=11;
-var result=Math.max(num1,num2,num3);
-console.log(result);
+// add a array number
+let numbers=[20,10,4,0,5,0,4,20];
+let sum=0;
+for(let i=0; i<numbers.length; i++){
+    sum=sum+numbers[i];
+}
+console.log(sum);
